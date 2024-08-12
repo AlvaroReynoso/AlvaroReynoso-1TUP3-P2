@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend><b>Datos</b></legend>
+        <form action="" method="post">
+            <label for="nombre">nombre</label> <br>
+            <input required="text" id="nombre" placeholder="escriba su nombre"><br><br>
+            <label for="edad">edad</label> <br>
+            <input required type="text" name="edad" placeholder="escriba su edad" id="edad"> <br><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </fieldset>
+
+    <fieldset>
+        <legend><b>Cuenta de Usuario</b></legend>
+        <form action="" method="post">
+            <label for="email">email</label><br>
+            <input required type="text" name="email" id="email" placeholder="ingrese mail"><br><br>
+            <label for="password">contraseña</label><br>
+            <input required type="password" name="password" id="password" placeholder="ingrese contraseña"><br><br>
+            <label for="checkPassword">ingrese otra vez la contraseña</label><br>
+            <input type="password" name="checkPassword" id="chekPassword" placeholder="ingrese contraseña"><br><br>
+            <button type="submit">Enviar</button><br>
+    </fieldset>
+    </form>
+
+    <fieldset>
+        <legend><b>Datos</b></legend>
+        <form>
+            <label for="nombre">nombre</label><br>
+            <input type="text" name="nombre" id="nombre" placeholder="ingrese nombre"><br><br>
+            <label for="email">email</label><br>
+            <input type="text" name="email" id="email" placeholder="ingrese email"><br><br>
+            <label for="dni">dni</label><br>
+            <input type="text" name="dni" id="dni" placeholder="ingrese email"><br><br>
+            <label for="curriculum">curriculum</label><br>
+            <textarea name="curriculum" placeholder="describa su curriculum"></textarea>
+            <br>
+            <button type="submit">Enviar</button>
+        </form>
+    </fieldset>
+
+    <fieldset>
+        <legend><b>Titulos peliculas</b></legend>
+        <form action="">
+            <label for="usuario">usuario</label><br>
+            <input type="text" name="usuario" id="usuario" placeholder="ingrese email"><br><br>
+            <label for="contraseña">contraseña</label><br>
+            <input type="password" name="contraseña" id="contraseña" placeholder="ingrese contraseña"><br><br>
+            <h3>Eliga una pelicula</h3>
+            <input type="checkbox" name="elPadrino" value="elPadrino"> El Padrino
+            <input type="checkbox" name="cinemaParadiso" value="cinemaParadiso"> Cinema Paradiso <br>
+            <input type="checkbox" name="incendies" value="incendies"> Incendies
+            <input type="checkbox" name="climax" value="climax"> Climax <br>
+            <br>
+            <button type="submit">Enviar </button>
+        </form>
+    </fieldset>
+
+    <fieldset>
+        <legend><b>¿Que sistema operativo se utiliza mas?</b></legend>
+        <form action="">
+            <input type="radio" name="linux" value="linux"> Linux
+            <input type="radio" name="windows" value="windows"> Windows
+        </form>
+    </fieldset>
+
+    <fieldset>
+        <legend>serie de emails</legend>
+        <form>
+            <label for="emails">emails <em>(mantenga letra control para seleccionar multiples)</em></label><br>
+            <select name="emails" id="emails" multiple>
+                <option value="alvaro">alvaro123@gmail.com</option>
+                <option value="fedeLuna"> fedeLuna@gmail.com</option>
+                <option value="luchoTessa"> luchoTessa@gmail.com</option>
+                <option value="julianVecchio"> julianVecchio@gmail.com</option>
+            </select>
+        </form>
+    </fieldset>
+
+    <fieldset>
+        <legend><b>Paises</b></legend>
+        <form>
+            <label for="paises">Seleccione un pais</label><br>
+            <h5>America</h5>
+            <select multiple>
+                <option> Argentina</option>
+                <option> Brasil</option>
+                <option> Uruguay</option>
+                <option> Ecuador</option>
+            </select>
+            <h4>Europa</h4>
+            <select>
+                <option>Alemania</option>
+                <option>Francia</option>
+                <option>Luxemburgo</option>
+                <option>Paises Bajos</option>
+            </select>
+        </form>
+    </fieldset>
+
+    <fieldset>
+        <legend><b>Nombre</b></legend>
+        <form>
+            <label for="">nombre</label><br>
+            <input type="text" name="nombre" id="nombre" placeholder="ingrese nombre">
+            <br><br>
+            <h4>Vote el sitio</h4>
+            <select>
+                <option value="excelente">Excelente</option>
+                <option value="muy bueno">Muy bueno</option>
+                <option value="bueno">Bueno</option>
+                <option value="regular">Regular</option>
+                <option value="malo">Malo</option>
+            </select>
+        </form>
+    </fieldset>
+
+
+</body>
+
+</html>

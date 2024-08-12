@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmic Conquest - Join the Space Adventure!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 50px 0;
+        }
+        h1 {
+            font-size: 3em;
+            text-shadow: 0 0 10px #00f, 0 0 20px #00f, 0 0 30px #00f;
+        }
+        .game-info {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        form {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: rgba(255, 255, 255, 0.1);
+            color: #fff;
+        }
+        input[type="submit"] {
+            background-color: #00f;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        input[type="submit"]:hover {
+            background-color: #00a;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Cosmic Conquest</h1>
+            <p>Embark on an Epic Space Adventure!</p>
+        </header>
+        
+        <section class="game-info">
+            <h2>About the Game</h2>
+            <p>Cosmic Conquest is a thrilling new space exploration game where you can discover alien worlds, build interstellar empires, and engage in epic space battles. Are you ready to conquer the cosmos?</p>
+        </section>
+        
+        <section>
+            <h2>Join the Cosmic Crew</h2>
+            <form>
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <input type="password" placeholder="Create Password" required>
+                <textarea placeholder="Why do you want to join the Cosmic Crew?" rows="4" required></textarea>
+                <input type="submit" value="Sign Up for Membership">
+            </form>
+        </section>
+    </div>
+</body>
+</html>
