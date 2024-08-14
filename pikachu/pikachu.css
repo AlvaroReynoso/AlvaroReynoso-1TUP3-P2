@@ -48,9 +48,6 @@ body{
 }
 
 .texto{
-    display:flex;
-    justify-content: center;
-    align-items: center;
     padding: 25px;
     margin-top: 20px;
     font-weight: 700;
