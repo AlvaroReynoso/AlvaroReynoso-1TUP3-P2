@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+body{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+
+}
+.fondo{
+    background-color: orange;
+    border: solid black 3px;
+    border-radius: 25px;
+    height: 400px;
+    width: 275px;
+    position: relative; /*sirve para el absolut, necesito ponerlo
+     para que el hijo se posicione en el padre*/
+}
+.titulo{
+    font-weight:700;
+    width: 65%;
+    border: solid black 3px;
+    border-radius: 10px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    position: absolute; /*no ocupa lugar*/
+    top: -2.5%;
+    left: 16.5%;
+
+/* USAR POSITION ABSOLUT EN HIJO Y RELATIVE EN PADRE
+ Y AHI USAR EN EL HIJO LEFT,TOP,PARA POSICIONAR */
+    
+    /* transform: translateY(-125%);es mas free de 
+    movimiento */
+}
+
+.foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.texto{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    margin-top: 20px;
+    font-weight: 700;
+    
+}
