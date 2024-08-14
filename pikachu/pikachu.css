@@ -17,7 +17,7 @@ body{
     border-radius: 25px;
     height: 400px;
     width: 275px;
-    position: relative; /*sirve para el absolut, necesito ponerlo
+    box-shadow: -2px 1px 25px 5px rgba(0,0,0,0.75);    position: relative; /*sirve para el absolut, necesito ponerlo
      para que el hijo se posicione en el padre*/
 }
 .titulo{
