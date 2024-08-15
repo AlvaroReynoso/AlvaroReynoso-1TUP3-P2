@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* minimo de altura */
+    background-color: rgb(251, 227, 197);
+
+}
+
+.contenedor{
+    background-color: rgb(47, 61, 70);
+    max-width: 300px;
+    /* maxima anchura */
+    border: solid 5px black;
+    border-radius: 4%;
+    position: relative;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.tituloCont{
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: absolute;
+    font-size: 6px;
+    width: 70%;
+    height: 10%;
+    left: 14.5%;
+    top: -15px;
+    color:rgb(201,201,186,255);
+    border: solid 3px black ;
+    border-radius: 15px;
+    background-color: rgb(55, 79, 83);
+}
+
+.imgCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: -20px;
+}
+
+.statsCont{
+    display: flex;
+    background-color: rgb(54, 79, 83);
+    color:rgba(201,201,186,255);
+    padding: 10px;
+    padding-right: 7px;
+    padding-top: 3px;
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 10px;;
+    gap: 4px;
+    flex-direction: column;
+    /* CADA HIJO ES AFECTADO POR FLEX-DIRECTION COLUMN */
+}
+.stat{
+    display: flex;
+    padding-top: 3px;
+    justify-content: space-between;
+    border-bottom: solid 1.7px;
+    font-size: 12px;
+    padding-right: 3px;
+    padding-left: -3px;
+    padding-bottom: 1px;
+}
+
+.descCont{
+   font-size: small;
+   padding: 3px 5px;
+}
