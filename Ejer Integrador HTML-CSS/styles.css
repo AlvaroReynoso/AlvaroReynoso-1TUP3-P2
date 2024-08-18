@@ -1,0 +1,329 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body
+{
+    display: grid;
+    justify-content: center;
+    min-height: 100vh;
+    background-color:rgb(240, 244, 244);
+}
+
+header{
+display: flex;
+justify-content: center;
+flex-direction:column;
+align-items: center;
+min-height: 5%;
+width: 100%;
+background-color: rgb(250, 250, 250);
+
+
+}
+.nav_bar{
+    align-items: center;
+    width: 100%;
+    height: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.busqueda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 7px;
+}
+button:hover{
+    background-color: rgb(194, 159, 46);
+    cursor: pointer; 
+}
+.navegacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav_item{
+    font-size: small;
+    color: black;
+    text-decoration: none;
+}
+
+.nav_item:hover{
+    color: rgb(214, 188, 133);
+}
+.buscar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.input
+{
+    border: 1px solid rgb(197, 196, 196);
+    border-radius: 5px;
+    height: 25px;
+    padding-left: 5px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+section{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    padding-right: 10%;
+
+}
+
+.section_conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 100px;
+    gap: 100px;
+}
+.fotoArt{
+ padding-right: -40px;
+ border-radius: 6px;
+}
+
+.article{ 
+    
+    width: 100%;
+    font-size: small;
+    padding: 23px;
+    box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+}
+button{
+    border-radius: 10px;
+    background-color: rgb(214, 188, 133);
+    font-family: sans-serif;
+    border: none;
+    padding: 4px 8px;
+    color: rgb(82, 49, 10);
+    box-shadow: 0px 0px 15px 0 rgba(0, 0, 0, 0.1);
+
+}
+
+
+.fecha{
+    color: rgb(146, 146, 146);
+    padding-bottom: 10px;
+}
+.comentCont
+{
+    padding-top: 59px;
+}
+
+aside
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.logo
+{
+    display: flex;
+    justify-content: center;
+    align-self: start;
+    position: absolute;
+}
+.parrafoArt{
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+
+.categories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgArt{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 15%;
+    width: 100%;
+    flex-direction: column;
+
+    }
+
+.conteinerFoot
+{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+}
+.copyright{
+    justify-content: center;
+    align-items: center;
+    padding-right:150px;
+    align-self: flex-start;
+    font-size: 10px;
+    color: rgb(107, 114, 128);
+
+}
+
+.map{
+    justify-content: center;
+    align-items: center;
+
+}
+.conteinerSocials{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+}
+.socials
+{
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+}
+
+.github{
+    
+}
+
+.socials a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/* From Uiverse.io by doniaskima */ 
+.btn-23,
+.btn-23 *,
+.btn-23 :after,
+.btn-23 :before,
+.btn-23:after,
+.btn-23:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+
+.btn-23 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #000;
+  background-image: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  font-weight: 900;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.btn-23:disabled {
+  cursor: default;
+}
+
+.btn-23:-moz-focusring {
+  outline: auto;
+}
+
+.btn-23 svg {
+  display: block;
+  vertical-align: middle;
+}
+
+.btn-23 [hidden] {
+  display: none;
+}
+
+.btn-23 {
+  border-radius: 99rem;
+  border-width: 2px;
+  overflow: hidden;
+  padding: 0.8rem 3rem;
+  position: relative;
+}
+
+.btn-23 span {
+  display: grid;
+  inset: 0;
+  place-items: center;
+  position: absolute;
+  transition: opacity 0.2s ease;
+}
+
+.btn-23 .marquee {
+  --spacing: 5em;
+  --start: 0em;
+  --end: 5em;
+  -webkit-animation: marquee 1s linear infinite;
+  animation: marquee 1s linear infinite;
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+  opacity: 0;
+  position: relative;
+  text-shadow: #fff var(--spacing) 0, #fff calc(var(--spacing) * -1) 0,
+    #fff calc(var(--spacing) * -2) 0;
+}
+
+.btn-23:hover .marquee {
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+  opacity: 1;
+}
+
+.btn-23:hover .text {
+  opacity: 0;
+}
+
+@-webkit-keyframes marquee {
+  0% {
+    transform: translateX(var(--start));
+  }
+
+  to {
+    transform: translateX(var(--end));
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(var(--start));
+  }
+
+  to {
+    transform: translateX(var(--end));
+  }
+}
