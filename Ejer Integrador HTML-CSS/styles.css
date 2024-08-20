@@ -33,6 +33,7 @@ background-color: rgb(250, 250, 250);
     flex-direction: row;
     justify-content: space-around;
 
+
 }
 .busqueda{
     display: flex;
@@ -49,6 +50,7 @@ button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .nav_item{
     font-size: small;
@@ -101,6 +103,7 @@ section{
 .fotoArt{
  padding-right: -40px;
  border-radius: 6px;
+ object-fit: cover;
 }
 
 .article{ 
@@ -130,9 +133,8 @@ button{
 }
 .comentCont
 {
-    padding-top: 59px;
+    padding-top: 49px;
 }
-
 aside
 {
     display: flex;
@@ -157,8 +159,28 @@ aside
 .categories{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    flex-direction: column;
 }
+h5{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-weight: bolder;
+    font-size: large;
+    margin-bottom: 10px;
+    color: rgb(214, 188, 133);
+}
+h4{
+    font-size: 1.5em;
+}
+li{
+    list-style: none;
+    padding: 5px;
+    font-size: medium;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+
+}
+
 
 .imgArt{
     display: flex;
@@ -181,7 +203,9 @@ footer{
     display: flex;
     height: 100%;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 20px;
 }
 .copyright{
     justify-content: center;
@@ -194,9 +218,15 @@ footer{
 }
 
 .map{
-    justify-content: center;
+    justify-content: flex;
     align-items: center;
 
+}
+.mapBorder{
+    border: solid 1px rgb(214, 188, 133);
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0 rgba(0, 0, 0, 0.2);
+    
 }
 .conteinerSocials{
     display: flex;
@@ -209,15 +239,15 @@ footer{
     display: flex;
     justify-content:flex-start;
     align-items:center;
+    gap: 5px;
 }
 
 .github{
-    
+ margin-left: 4px;   
 }
 
 .socials a{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
