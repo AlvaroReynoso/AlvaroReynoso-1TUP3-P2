@@ -1,0 +1,267 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body
+{
+    display: grid;
+    justify-content: center;
+    min-height: 100vh;
+    background-color:rgb(240, 244, 244);
+}
+
+header{
+display: flex;
+justify-content: center;
+flex-direction:column;
+align-items: center;
+min-height: 5%;
+width: 100%;
+background-color: rgb(250, 250, 250);
+
+
+}
+.nav_bar{
+    align-items: center;
+    width: 100%;
+    height: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+.busqueda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 7px;
+}
+button:hover{
+    background-color: rgb(194, 159, 46);
+    cursor: pointer; 
+}
+.navegacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.nav_item{
+    font-size: small;
+    color: black;
+    text-decoration: none;
+}
+
+.nav_item:hover{
+    color: rgb(214, 188, 133);
+}
+.buscar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.input
+{
+    border: 1px solid rgb(197, 196, 196);
+    border-radius: 5px;
+    height: 25px;
+    padding-left: 5px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+section{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    padding-right: 10%;
+
+}
+
+.section_conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 100px;
+    gap: 100px;
+}
+.fotoArt{
+ padding-right: -40px;
+ border-radius: 6px;
+ object-fit: cover;
+}
+
+.article{ 
+    
+    width: 100%;
+    font-size: small;
+    padding: 23px;
+    box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.footerArticle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leerMas{
+    border-radius: 5px;
+    flex-direction: column;
+    align-self: self-end;  
+}
+.leerMasFont{
+    font-size: smaller;
+    color: rgb(60, 61, 53);
+    padding: 7.5px 12.5px;
+    font-weight: bold;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.1);  
+}
+button{
+    border-radius: 10px;
+    background-color: rgb(214, 188, 133);
+    font-family: sans-serif;
+    border: none;
+    padding: 4px 8px;
+    color: rgb(82, 49, 10);
+    box-shadow: 0px 0px 15px 0 rgba(0, 0, 0, 0.1);
+
+}
+
+
+.fecha{
+    color: rgb(146, 146, 146);
+    padding-bottom: 10px;
+}
+.comentCont
+{
+    padding-top: 49px;
+}
+aside
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.logo
+{
+    display: flex;
+    justify-content: center;
+    align-self: start;
+    position: absolute;
+}
+.parrafoArt{
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+
+.categories{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+h5{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-weight: bolder;
+    font-size: large;
+    margin-bottom: 10px;
+    color: rgb(214, 188, 133);
+}
+h4{
+    font-size: 1.5em;
+}
+li{
+    list-style: none;
+    padding: 5px;
+    font-size: medium;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+
+}
+.imgArt{
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 15%;
+    width: 100%;
+    flex-direction: column;
+
+    }
+
+.conteinerFoot
+{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 20px;
+}
+.copyright{
+    justify-content: center;
+    align-items: center;
+    padding-right:150px;
+    align-self: flex-start;
+    font-size: 10px;
+    color: rgb(107, 114, 128);
+
+}
+
+.map{
+    justify-content: flex;
+    align-items: center;
+}
+.mapBorder{
+    border: solid 1px rgb(214, 188, 133);
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0 rgba(0, 0, 0, 0.2);
+    
+}
+.conteinerSocials{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+}
+.socials
+{
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+    gap: 5px;
+}
+
+.github{
+ margin-left: 4px;   
+}
+
+.socials a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
