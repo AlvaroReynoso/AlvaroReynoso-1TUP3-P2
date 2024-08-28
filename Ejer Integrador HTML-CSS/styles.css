@@ -113,7 +113,24 @@ section{
     padding: 23px;
     box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+}
+.footerArticle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.leerMas{
+    border-radius: 5px;
+    flex-direction: column;
+    align-self: self-end;  
+}
+.leerMasFont{
+    font-size: smaller;
+    color: rgb(60, 61, 53);
+    padding: 7.5px 12.5px;
+    font-weight: bold;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.1);  
 }
 button{
     border-radius: 10px;
@@ -180,11 +197,9 @@ li{
     cursor: pointer;
 
 }
-
-
 .imgArt{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 30px;
 }
 
@@ -220,7 +235,6 @@ footer{
 .map{
     justify-content: flex;
     align-items: center;
-
 }
 .mapBorder{
     border: solid 1px rgb(214, 188, 133);
